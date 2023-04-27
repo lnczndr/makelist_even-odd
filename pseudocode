@@ -1,0 +1,11 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGERAM 1
+#MAKING LISTS BY EXTRACTING THE EVEN AND ODD NUMBERS SEPARATELY FROM NUMBERS.TXT LIST
+
+#PSEUDOCODE
+#making and reading a list that contains the 20 integers
+#creating the two lists (even & odd)
+#determining if the integer is even or odd
+#defining the even numbers
+#defining the odd numbers
