@@ -1,0 +1,23 @@
+#LANA CAZANDRA U. LEGASPI - BSCPE 1-5
+
+#ASSIGNMENT 4: PROGERAM 1
+#MAKING LISTS BY EXTRACTING THE EVEN AND ODD NUMBERS SEPARATELY FROM NUMBERS.TXT LIST
+
+#PSEUDOCODE
+#making and reading a list that contains the 20 integers
+with open ("numbers.txt", "r") as twenty_integers:
+    all_integers = list(map(int, twenty_integers.read().split()))
+    
+#creating the two lists (even & odd)
+even_integers = []
+odd_integers = []
+
+#determining if the integer is even or odd
+for num in all_integers:
+    if num % 2 == 0:
+        even_integers.append(num)
+    else:
+        odd_integers.append(num)
+
+#defining the even numbers
+#defining the odd numbers
